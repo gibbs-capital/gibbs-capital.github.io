@@ -1,0 +1,11 @@
+{
+  "name": "Gibbs Capital Hub",
+  "short_name": "Gibbs Capital",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#081426",
+  "theme_color": "#0a1a30",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
