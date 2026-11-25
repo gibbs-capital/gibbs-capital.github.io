@@ -9,7 +9,29 @@
         <link rel="apple-touch-icon" href="icon-512.png">
         <link rel="manifest" href="site.webmanifest">
         <meta name="theme-color" content="#0a1a30">
-    <title>Gibbs Capital Hub</title>
+    <title>Gibbs Capital — Personal Financial Dashboard &amp; Educational Resource</title>
+    <meta name="description" content="Gibbs Capital is a personal financial dashboard and educational resource for the Gibbs family, created and maintained by Caleb Gibbs. Not a commercial investment firm." />
+    <meta name="author" content="Caleb Gibbs" />
+    <link rel="canonical" href="https://gibbs-capital.github.io/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Gibbs Capital" />
+    <meta property="og:title" content="Gibbs Capital — Personal Financial Dashboard &amp; Educational Resource" />
+    <meta property="og:description" content="Gibbs Capital is a personal financial dashboard and educational resource for the Gibbs family, created and maintained by Caleb Gibbs. Not a commercial investment firm." />
+    <meta property="og:url" content="https://gibbs-capital.github.io/" />
+    <meta property="og:image" content="https://gibbs-capital.github.io/icon-512.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Gibbs Capital — Personal Financial Dashboard &amp; Educational Resource" />
+    <meta name="twitter:description" content="Gibbs Capital is a personal financial dashboard and educational resource for the Gibbs family, created and maintained by Caleb Gibbs. Not a commercial investment firm." />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Gibbs Capital",
+      "url": "https://gibbs-capital.github.io/",
+      "description": "Gibbs Capital is a personal financial dashboard and educational resource for the Gibbs family, created and maintained by Caleb Gibbs. Not a commercial investment firm.",
+      "author": { "@type": "Person", "name": "Caleb Gibbs" }
+    }
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500;600;700;800;900&display=swap" rel="stylesheet" />
@@ -170,6 +192,28 @@
         line-height: 1;
       }
 
+      .about {
+        margin-top: 26px;
+        background: var(--tile);
+        border: 1px solid var(--tile-border);
+        border-radius: var(--radius-tile);
+        padding: 20px 22px;
+      }
+      .about h2 {
+        margin: 0 0 8px;
+        font-size: 15px;
+        font-weight: 800;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--gold-bright);
+      }
+      .about p {
+        margin: 0;
+        font-size: 15px;
+        line-height: 1.55;
+        color: var(--text);
+      }
+
       .foot {
         margin-top: 26px;
         font-size: 13px;
@@ -242,6 +286,11 @@
           <span class="tile-arrow" aria-hidden="true">›</span>
         </a>
       </nav>
+
+      <section class="about" aria-label="About Gibbs Capital">
+        <h2>About</h2>
+        <p>Created and maintained by Caleb Gibbs as a personal financial dashboard and educational resource for the Gibbs family. Not a commercial investment firm.</p>
+      </section>
 
       <p class="foot">The numbers live in the sheet. The videos explain the why behind them.</p>
     </main>
